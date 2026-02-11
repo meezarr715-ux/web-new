@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Website Anda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+</head>
+<body>
+    <!-- Header/Navigasi -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#services">Layanan</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Konten Utama -->
+    <main class="main-content">
+        <section id="home" class="hero section">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Selamat Datang di Website Anda</h2>
+                    <p>Mulai mengembangkan website Anda dari base code ini. Sesuaikan dengan kebutuhan Anda.</p>
+                    <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+                </div>
+                <div class="hero-image">
+                    <div class="placeholder-image">
+                        <span>Gambar/Ilustrasi</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <h2 class="section-title">Tentang</h2>
+                <div class="about-content">
+                    <p>Website ini adalah base code yang dapat Anda kostumisasi sesuai kebutuhan. Struktur file terdiri dari HTML, CSS, dan JavaScript yang terpisah untuk memudahkan pengembangan.</p>
+                    <p>Base code ini sudah responsif dan akan menyesuaikan tampilan di berbagai perangkat seperti smartphone, tablet, laptop, dan desktop.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services section">
+            <div class="container">
+                <h2 class="section-title">Layanan</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🖥️</div>
+                        <h3>Desain Responsif</h3>
+                        <p>Tampilan optimal di semua perangkat.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Performansi Cepat</h3>
+                        <p>Base code ringan dengan performa optimal.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>Mudah Dikostumisasi</h3>
+                        <p>Sesuaikan dengan kebutuhan Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <div class="container">
+                <h2 class="section-title">Kontak</h2>
+                <div class="contact-content">
+                    <p>Untuk informasi lebih lanjut, silakan hubungi kami melalui formulir di bawah ini.</p>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" placeholder="Masukkan nama Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Masukkan email Anda">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" rows="5" placeholder="Masukkan pesan Anda"></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Website Anda</h3>
+                    <p>Base code responsif untuk semua perangkat.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Nama Website Anda. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
